@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.146875" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable/colors.xml" value="0.146875" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable/style_circular_button_blue.xml" value="0.2755208333333333" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable/style_circular_button_green.xml" value="0.2755208333333333" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable/style_circular_button_red.xml" value="0.2755208333333333" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/drawable/style_circular_button_yellow.xml" value="0.2755208333333333" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout-land/activity_game_over.xml" value="0.23153153153153153" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout-land/activity_high_score.xml" value="0.23153153153153153" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout-land/activity_main.xml" value="0.23153153153153153" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout-land/activity_play.xml" value="0.264" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout/activity_game_over.xml" value="0.264" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout/activity_high_score.xml" value="0.49233716475095785" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout/activity_main.xml" value="0.2552083333333333" />
+        <entry key="..\:/college/y3/mobileDev/GameApp/app/src/main/res/layout/activity_play.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

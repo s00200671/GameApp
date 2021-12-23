@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_circular_button_green"
+        android:onClick="BtnTap"
+        android:text="Green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_circular_button_yellow"
+        android:onClick="BtnTap"
+        android:text="Yellow"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_circular_button_blue"
+        android:onClick="BtnTap"
+        android:text="BLUE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/style_circular_button_red"
+        android:onClick="BtnTap"
+        android:text="RED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Coordinate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/tvY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/tvLabel1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <TextView
+        android:id="@+id/tvLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Coordinate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/tvLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Coordinate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <TextView
+        android:id="@+id/tvZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toEndOf="@+id/tvLabel2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
